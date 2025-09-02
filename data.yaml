@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['coffe', 'coke', 'fanta', 'kuat', 'milk', 'orange_juice']
+
+roboflow:
+  workspace: mundial
+  project: robocup-home_salvador_2025
+  version: 7
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/mundial/robocup-home_salvador_2025/dataset/7
