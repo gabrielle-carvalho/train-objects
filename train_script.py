@@ -14,7 +14,7 @@ def train_yolov8(model_name, data_yaml, epochs, batch_size, lr, optimizer):
     )
     
 model_name = 'yolov8m.pt'
-data_yaml = '/home/bill7/train_objects/data.yaml'
+data_yaml = '/home/bill7/train-objects/data.yaml'
 epochs = 200 # 119 epochs completed in 3.431 hours.
 batch_size = 4
 lr = 0.001

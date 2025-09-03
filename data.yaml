@@ -2,12 +2,13 @@ train: ../train/images
 val: ../valid/images
 test: ../test/images
 
-nc: 6
-names: ['coffe', 'coke', 'fanta', 'kuat', 'milk', 'orange_juice']
+nc: 16
+names: ['Coffe', 'Coffee-filter', 'Garbage-Bin', 'bottle', 'bucket', 'cloth', 'cup', 'detergent', 'fork', 'insecticide', 'knife', 'mug', 'plate', 'sponge', 'spoon', 'sweetener']
 
 roboflow:
-  workspace: mundial
-  project: robocup-home_salvador_2025
-  version: 7
+  workspace: yolov-udd6d
+  project: dataset-perto-e-longe
+  version: 4
   license: CC BY 4.0
-  url: https://universe.roboflow.com/mundial/robocup-home_salvador_2025/dataset/7
+  url: https://universe.roboflow.com/yolov-udd6d/dataset-perto-e-longe/dataset/4
+  
